@@ -5,6 +5,6 @@ x= user_choice                          #Facteur de calcul "âge"
 y= x
 while x!= 0                             #Année de naissance     
   y= y
-  puts "Il y a ", "#{x - 1 + 1} ans, tu avais", "#{y - x} ans ! "
+  puts "Il y a #{x} ans, tu avais #{y - x} ans ! "
   x-= 1
 end
